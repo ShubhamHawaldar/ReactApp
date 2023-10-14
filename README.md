@@ -2,7 +2,7 @@
 
 ### Check repository and add code in respective files that mentioned in below steps.
 
-## Setup react app without create-react-app (CRA)
+## Setup react app without using create-react-app (CRA)
   - Prerequisites and tool
     - Node
     - VS Code
