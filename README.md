@@ -36,6 +36,33 @@
     "build": "webpack ."
   }
 
+  ## Set up ESLint, Prettier and Husky in a React project
+
+  - Installing Eslint dependencies
+    - npm install eslint --save-dev
+
+  - Configuring ESLint
+    - npm init @eslint/config
+
+  - Installing Prettier dependencies
+    - npm install --save-dev --save-exact prettier
+
+  - Configure Prettier
+    - In the root folder create a file named .prettierrc.json
+
+  - Integrating Prettier with ESLint
+    - npm install --save-dev eslint-config-prettier
+
+  - Configure scripts
+    - "scripts": {
+                ... // other scripts you have
+        "lint": "eslint . --fix --max-warnings=0",
+        "format": "prettier . --write"
+    }
+
+  - Installing Husky (Make sure your folder is a git directory)
+    - npx mrm@2 lint-staged
+
 
 
 
